@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addTodo, removeTodo } from '../features/todo/todoSlice'
-import Todos from "./Todos"
 
 function AddTodos() {
     const [input, setInput] = useState('')
